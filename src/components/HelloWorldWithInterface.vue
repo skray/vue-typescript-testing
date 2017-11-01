@@ -23,7 +23,7 @@
 <script lang="ts">
   import Vue from 'vue'
 
-  export interface HelloWorldInterface {
+  export interface HelloWorldInterface extends Vue {
     msg: string
   }
 
